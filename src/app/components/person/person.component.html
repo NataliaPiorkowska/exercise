@@ -1,0 +1,5 @@
+<p>{{ getPrefixForLevel(level) }} {{ person.name }} {{person.surname}} | {{person.street}} {{person.houseNumber}},
+    {{person.zipCode}}, {{ getCountryName(person.countryId!) }}</p>
+<div *ngFor="let child of person.children" style="margin-left:50px ;">
+    <app-person [person]="child" [level]="level+1"></app-person>
+</div>
