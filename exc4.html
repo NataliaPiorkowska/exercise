@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Zadanie 4</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #6c757d;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            
+        }
+
+        .top-section {
+            display: flex;
+            flex: 1;
+            align-items: baseline;
+            overflow: hidden;
+            max-height: 402px;
+            background-color: yellow;
+        }
+
+        .left-section {
+            flex: 1;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .full-width-image {
+            width: 50%;
+            height: 20vh;
+            overflow: hidden;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+
+        .full-width-image img {
+            width: 108%;
+            height: 100%;
+            position: absolute;
+            right: -104px;
+            opacity: 0.7;
+            top: -335px;
+            border-radius: 0px 0px 0px 2109px;
+        }
+
+        .text {
+            margin-top: 20px;
+        }
+
+        .middle-section {
+            background-color: #6c757d;
+            height: calc(100vh - 402px);
+        }
+
+        .header {
+            font-size: 24px;
+            color: black;
+            font-weight: bold;
+        }
+        .card {
+            width: 16rem;
+            text-align-last: left;
+        }
+
+        .container {
+            max-width: 925px !important;
+            background-color: #6c757d;
+        }
+
+        .end-section {
+            margin-top: 285px;
+    text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top-section">
+        <div class="left-section">
+            <h3 class="font-weight-bold">New Subheader</h3>
+            <h2 class="font-weight-bold">New header</h2>
+            <p class="font-weight-bold">Lorem ipsum dolor sit amet.</p>
+            <button class="btn btn-success">Button</button>
+        </div>
+        <div class="full-width-image">
+            <img src="https://przelewsepa.pl/wp-content/uploads/2024/04/przelew-z-polski-do-holandii-1024x682.jpg"
+                alt="img">
+        </div>
+    </div>
+    <div class="middle-section">
+        <div class="container" style="text-align: -webkit-center;">
+            <p class="header">Header</p>
+            <div class="row mb-2">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">lorem</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">lorem</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">lorem</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">lorem</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">lorem</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">lorem</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="end-section" style="background-color: #ffffff;">
+        <p class="header">FORM</p>
+        <form>
+            <div class="form-row mb-1">
+              <div class="col">
+                <input type="text" class="form-control" >
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" >
+              </div>
+            </div>
+            <div class="form-row mb-1">
+                <div class="col">
+                  <input type="text" class="form-control">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" >
+                </div>
+              </div>
+              <div class="form-row mb-1">
+                <div class="col">
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+              <div class="form-row mb-1">
+                <div class="col">
+                  <input type="text" class="form-control" >
+                </div>
+              </div>
+          </form>
+
+            <div class="col">
+                <button class="btn btn-primary" style="width: -webkit-fill-available;">Wyślij</button>
+            </div>
+
+    </div>
+
+</body>
+
+</html>
+
